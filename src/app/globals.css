@@ -1,0 +1,40 @@
+:root {
+  --background: #f9f9f9;
+  --purple: #6b2abc;
+  --purple-secondary: #f0eaf8;
+  --contrast: #ff7355;
+  --contrast-secondary: #ffe3dd;
+  --contrast-active: #fff8f7;
+  --text-primary: #2c2d2e;
+  --text-tertiary: #000000;
+  --text-secondary: #87898f;
+  --white: #fff;
+  --green: #52a754;
+  --red: #ff2045;
+  --red-secondary: #ffe9ec;
+  --border: #f3f3f3;
+}
+
+html,
+body {
+  height: 100dvh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.tab {
+  width: 109px;
+  height: 48px;
+  border-bottom: 2px solid var(--contrast);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab * {
+  cursor: inherit;
+}
+
+.text {
+  color: var(--contrast);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+}

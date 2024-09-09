@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressExcessPropertyErrors": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "allowImportingTsExtensions": false,
+    "allowUnreachableCode": false,
+    "verbatimModuleSyntax": true,
+    "importHelpers": false,
+    "sourceMap": false,
+    "noErrorTruncation": false,
+    "pretty": true,
+    "baseUrl": "src/",
+    "paths": {
+      "@/styles/*": [
+        "shared/styles/*"
+      ],
+      "@/assets/*": [
+        "assets/*"
+      ],
+      "@/entities/*": [
+        "entities/*"
+      ],
+      "@/features/*": [
+        "features/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/shared/*": [
+        "shared/*"
+      ],
+      "@/widgets/*": [
+        "widgets/*"
+      ]
+    },
+    "incremental": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

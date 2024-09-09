@@ -1,0 +1,22 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: var(--red-secondary);
+}
+
+.purple {
+  background-color: var(--purple-secondary);
+}
+
+.contrast {
+  background-color: var(--contrast);
+}
+
+.contrast-secondary {
+  background-color: var(--contrast-secondary);
+}
